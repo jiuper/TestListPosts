@@ -8,7 +8,7 @@ export const Routing = () => {
         <div className='wrapper'>
             <Header/>
             <Routes>
-                <Route path={ROUTES.MAIN} element={<div>ASD</div>}/>
+                <Route path={ROUTES.MAIN} element={<div></div>}/>
                 <Route path={ROUTES.ABOUT} element={<AboutMe/>}/>
                 <Route path={ROUTES.USER} element={<div>ASD</div>}/>
             </Routes>

@@ -1,0 +1,20 @@
+.navigation{
+  display: flex;
+  flex-direction: column;
+  >.button{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: "Microsoft Himalaya",sans-serif;
+    color: black;
+  }
+  >.button:hover{
+    background-image: url("https://cdn.icon-icons.com/icons2/2904/PNG/512/bat_batman_comics_dc_movie_icon_183143.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: right;
+    transform: translate(-10%);
+    transition: transform 0.7s ease-in-out;
+  }
+}

@@ -1,0 +1,51 @@
+.header{
+  position: relative;
+  height: 100px;
+  box-shadow: -4px 11px 33px -10px rgba(179, 179, 179, 0.2) ;
+
+  .hamburger-menu{
+
+    padding: 30px 0 0 30px;
+    position: absolute;
+
+
+    .hamburger-menu_icon {
+      width: 30px;
+      height: 30px;
+      padding-bottom:40px;
+
+    }
+    .hamburger-menu_active {
+      content: url("https://cdn.icon-icons.com/icons2/1875/PNG/512/hamburgermenu_120234.png");
+    }
+
+    .hamburger-menu_close {
+      content: url("https://cdn.icon-icons.com/icons2/1157/PNG/512/1487086345-cross_81577.png");
+    }
+
+    .menu-active{
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      gap: 30px;
+      border-right: 1px solid rgba(179, 179, 179, 0.2);
+
+    }
+
+    .active{
+      transform: translate(-20%);
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .no-active{
+      transform: translate(-140%);
+      transition: transform 0.5s ease-in-out;
+    }
+
+  }
+
+}
+
+
+
